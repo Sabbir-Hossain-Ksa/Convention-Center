@@ -1,22 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-.banner-img{
-    background-image: url('../images/banner.png');
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.banner-img {
+  background-image: url("../images/banner.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.btn{
-    padding: 1rem 2.1rem;
+.btn {
+  padding: 1rem 2.1rem;
 }
-.card-list{
-    list-style: none;
+.card-list {
+  list-style: none;
 }
-.package-btn{
-    padding: 9px 47px;
+.package-btn {
+  padding: 9px 47px;
 }
-.parson-img{
-    width: 200px;
-    height: 200px;
+.parson-img {
+  width: 100px;
+  height: 100px;
+}
+.customize-footer{
+  background-image: repeating-linear-gradient(90deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(0deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(0deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 10px),repeating-linear-gradient(90deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 10px),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20));
+  height: 40vh;
 }
